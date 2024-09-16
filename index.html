@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Princesa e a Cidade Perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Era uma vez a Princesa Elara, que descobriu uma carta antiga em um livro da biblioteca real. A carta falava sobre uma cidade perdida, escondida por riquezas e belezas naturais. Decidida a encontrar essa cidade, Elara começou sua jornada seguindo as pistas da carta!</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a Floresta</button>
+            <button class="btn-proximo" data-proximo="2">Visitar a Vila Vizinhança</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Elara decide explorar a floresta, onde encontra uma trilha que leva ao Pico da Montanha. No topo, ela encontra uma antiga inscrição que revela a próxima pista.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir a pista da montanha</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para o palácio</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Vila Vizinhança, Elara descobre que a entrada para a cidade perdida está escondida em um dos pontos turísticos locais. Qual você escolherá investigar?</p>
+            <button class="btn-proximo" data-proximo="5">Visitar a antiga igreja</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a caverna na praia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo da montanha, Elara encontra uma inscrição antiga indicando que a próxima pista está na floresta densa. Ela decide seguir para lá.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a floresta</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Elara decide que a aventura é grande demais e volta para o palácio. Ela sempre se pergunta o que teria encontrado se tivesse continuado a busca.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na antiga igreja da Vila Vizinhança, Elara encontra um mapa escondido atrás de um altar. O mapa mostra que a próxima pista está na floresta densa.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a floresta</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Explorando a caverna na praia, Elara encontra um beco sem saída. Decidida, ela retorna para investigar a antiga igreja.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e visitar a antiga igreja</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Na floresta densa, Elara encontra um rio bifurcado. Ela deve decidir qual caminho seguir.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo rio à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo rio à direita</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>De volta à antiga igreja, Elara encontra novamente o mapa. Ela decide então seguir para a floresta densa.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a floresta</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva Elara a uma cachoeira escondida com inscrições antigas que revelam a entrada da cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar das vistas bonitas, Elara não encontra sinais da cidade perdida aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida na floresta">
+            <p>Dentro da cidade perdida, Elara encontra maravilhas e decide se dedicar a estudar e preservar este lugar encantador.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, Elara finalmente encontra a cachoeira escondida e as inscrições que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
